@@ -17,7 +17,7 @@ def scan(ip):
     # scapy.ls(scapy.ARP()) # reveals all the fields that can be set in the scapy.ARP Class
     # scapy.ls(scapy.Ether()) # reveals all the fields that can be set in the scapy.Ether Class
     answered, unanswered = scapy.srp(arp_request_broadcast, timeout=1)
-    print (answered.summary())
+    print (unanswered.summary())
 
 
 scan("10.0.2.1/24")
