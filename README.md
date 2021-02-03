@@ -1,2 +1,3 @@
-# network_scanner is part of my ethical hacking series.
-This is simple command line program written in python to scan and identify all the devices on a network
+# Network Scanner 
+This part of my ethical hacking series.
+A simple command line program written in python to scan and identify devices on a network
